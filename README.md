@@ -1,6 +1,6 @@
 <div align="center">
     <h1>The-Homie-CTFs</h1>
-    <h4>CTF challenges, written by me, for the homies :-)</h4>
+    <h4>CTF challenges I've created. By a homie, for the homies. :-)</h4>
 </div>
 
 <div align="center">
