@@ -1,0 +1,12 @@
+services:
+  php_apache:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: php_apache
+    expose:
+     - 80
+    ports:
+      - "8091:80" # Visit 'localhost:8091' to absolutely PWN this site!
+    logging:
+      driver: "none" # Turns off logs printing to the terminal cuz I hate 'em

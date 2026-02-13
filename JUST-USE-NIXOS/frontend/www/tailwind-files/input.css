@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: taho;
+        src: url("../project-files/fonts/fs-tahoma-8px.otf");
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: tahoma;
+        src: url("../project-files/fonts/Tahoma\ Regular\ font.ttf");
+    }
+}

@@ -1,0 +1,32 @@
+name: JUST-USE-NIXOS
+author: "[L]ED"
+category: web
+description: "HOLY BRO JUST USE NIXOS!!!!"
+attribution: "[L]ED"
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 100
+    minimum: 50
+
+flags:
+    - {
+        type: "regex",
+        content: '^flag\{Y0_G0_D0WNL04D_N1X05_R1H6T_N0W_1M_S3R10U\$_H0M13!!\}$',
+        data: "case_insensitive",
+    }
+
+topics:
+    - web
+
+tags:
+    - web
+
+image: __compose__
+connection_info: https://justusenixos.ctf.bsidesredrocks.org
+
+state: visible
+
+version: "0.1"
